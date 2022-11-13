@@ -25,7 +25,7 @@ const chatModel = mongoose.Schema({
 
 const chat = mongoose.model("Chat", chatModel);
 
-module.exports = Chat;
+module.exports = chat;
 
 // chatName
 // isGroupChat
